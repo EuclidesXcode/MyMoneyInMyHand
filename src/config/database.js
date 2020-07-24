@@ -1,5 +1,5 @@
-const mongoose =  require('mongoose')
+const mongoose = require('mongoose')
 
 mongoose.Promise = global.Promise
 
-module.exports = mongoose.connect('mongoose://localhost/database')
+module.exports = mongoose.connect('mongodb://localhost/databse')
