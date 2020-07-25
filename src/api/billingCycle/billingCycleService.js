@@ -44,6 +44,4 @@ BillingCycle.route('count', (req, res, next) => {
     })
 })
 
-
-
 module.exports = BillingCycle
